@@ -1,0 +1,76 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+
+*:focus{
+  outline: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.logo{
+  width: 25%;
+  margin: 15% auto;
+}
+
+.inputs{
+  width: 70%;
+  margin: 1% auto;
+  padding: 12px;
+  border: none;
+  font-size: 18px;
+  border-bottom: 1px solid #00F081;
+}
+
+.btn-acao{
+  margin: 5% auto;
+  width: 78%;
+  padding: 15px;
+  background-color: #00F081;
+  border-radius: 3px;
+  color: white;
+  border: none;
+  font-size: 18px;
+}
+
+.devs{
+  margin: 5% auto;
+  font-size: 16px;
+}
+
+.forget{
+  margin: 5% auto;
+  color: #00F081;
+  
+}
+
+a{
+  color: #00F081;
+}
+
+span{
+  color: #00F081;
+}
+
+#registrar{
+  margin-top: -3%;
+}
+/* */
+.ripple {
+  background-position: center;
+  transition: background 0.5s;
+}
+.ripple:hover {
+  background: #00F081 radial-gradient(circle, transparent 1%, #00F081 1%) center/15000%;
+}
+.ripple:active {
+  background-color: rgb(56, 248, 159);
+  background-size: 100%;
+  transition: background 0s;
+}
